@@ -2,13 +2,17 @@
 
 Though I added comments to my code, but I feel it would be easier to you to understand how my code works by also me annotating here.
 
+## Card creation and shuffling:
+
 ![image](https://user-images.githubusercontent.com/107953912/175070277-8adb70bc-82dc-4ad1-a333-05e05b343d19.png)
 
 The User has an option either to put a file or just use the current deck with 52 cards and shuffle it, if he chooses to input a file, this format description will print out.
 
 ![image](https://user-images.githubusercontent.com/107953912/175071360-eb561120-4075-4b89-8462-d44299c8f416.png)  ![image](https://user-images.githubusercontent.com/107953912/175071396-5322ae38-1a62-4522-bbc0-a79fe4dce5c0.png)
 
-Here players start to bet (its multiplayer though), what happens in my bet is the following. Each player has 1 chance to re-raise. And when someone re-raises he doesn’t have the r option anymore. According to a UCLA in office hours, he told that it would be better to remove the option of folding at the first round of betting.
+## Betting system:
+
+Here players start to bet (its multiplayer though), what happens in my bet is the following. Each player has 1 chance to re-raise. And when someone re-raises he doesn’t have the r option anymore.
 
 ![image](https://user-images.githubusercontent.com/107953912/175071704-40b3a66e-ac90-4eb2-853c-199b03b7fd19.png)
 
@@ -27,7 +31,13 @@ Player 1: presses play and pays another 20$
 
 ![image](https://user-images.githubusercontent.com/107953912/175071960-79341cb7-1021-438b-8600-4782a1be60a5.png)
 
+If a player tried to put a re-raise lower than the initial bet, previous re-raise, or higher than his current money these messages will come out to let him to write another amount.
+
+![image](https://user-images.githubusercontent.com/107953912/175074536-6c02637a-e481-4a8e-a636-7b0cc901f833.png)
+
 There are much more possible and different cases for these bets I just illustrated the most common and important ones, you will be able to see the other possible cases when you run my code.
+
+## Card dealting, and Top & discard pile management:
 
 ![image](https://user-images.githubusercontent.com/107953912/175072178-181d22da-4bd0-4818-b7cc-36dfa1da1b07.png)
 
@@ -45,3 +55,20 @@ Player 2: takes his turn
 Then Winner is chosen and declared
 ```
 
+## Game statistics:
+
+When the game ends the winner is declared and game statistics is shown.
+
+![image](https://user-images.githubusercontent.com/107953912/175074600-e3fb72fb-ba8f-4319-9a82-4d1e210729af.png)
+
+## Other points:
+
+Some other points in my code:
+1-	If someone knocks knocks and ends the game no more bets will take place and everyone will have one more turn.
+2-	If there are more than 2 players, and someone folds the game will continue with the other two players without the player who folded.
+3-	If the player chosen from discard pile it won’t print the graphics twice just once as usual.
+4-	I did the multiplayer, game statics, and graphics extra credit.
+5-	The game re-initialize the deck and shuffles it successfully in case the players wanted another game.
+6-	I print out the current and updated points (after he takes his turn) for each player turn.
+7-	Cards that are 2 – 10 values (Not Aces or face cards) I printed them as Heart 2 as it would be easier to the player to read instead of putting 3 words fragments for each 2 – 10 values cards.
+8-	There are some many other features but I can’t explain it here using DOC. Hope this document helped abit! Thank you.
