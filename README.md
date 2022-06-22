@@ -67,9 +67,9 @@ Some other points in my code:
 1-	If someone knocks knocks and ends the game no more bets will take place and everyone will have one more turn.
 2-	If there are more than 2 players, and someone folds the game will continue with the other two players without the player who folded.
 3-	If the player chosen from discard pile it won’t print the graphics twice just once as usual.
-4-	I did the multiplayer, game statics, and graphics extra credit.
+4-	The game can be multiplayer,  shows game statics, and shows graphics.
 5-	The game re-initialize the deck and shuffles it successfully in case the players wanted another game.
-6-	I print out the current and updated points (after he takes his turn) for each player turn.
+6-	I printed out the current and updated points (after he takes his turn) for each player turn.
 7-	Cards that are 2 – 10 values (Not Aces or face cards) I printed them as Heart 2 as it would be easier to the player to read instead of putting 3 words fragments for each 2 – 10 values cards.
 8-	There are some many other features but I can’t explain it here using DOC. Hope this document helped abit! Thank you.
 ```
